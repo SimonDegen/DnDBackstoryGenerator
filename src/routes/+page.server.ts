@@ -3,7 +3,7 @@ import { openAi } from '../openAi';
 import type { CharacterResponse } from '../types/charResponse';
 
 export const config = {
-    runtime: 'nodejs18.14.2'
+    runtime: 'nodejs18.x'
   };
 
 /** @type {import('./$types').Actions} */

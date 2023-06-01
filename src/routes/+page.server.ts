@@ -2,9 +2,7 @@
 import { openAi } from '../openAi';
 import type { CharacterResponse } from '../types/charResponse';
 
-export const config = {
-	runtime: 'edge',
-  };
+
 
 /** @type {import('./$types').Actions} */
 export const actions = {

@@ -5,7 +5,7 @@ import type { CharacterResponse } from '../types/charResponse';
 export const config = {
     runtime: 'nodejs18.x'
   };
-
+  
 /** @type {import('./$types').Actions} */
 export const actions = {
 	makeApiRequest: async ({ cookies, request }: any) => {

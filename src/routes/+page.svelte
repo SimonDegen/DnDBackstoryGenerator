@@ -1,21 +1,6 @@
 <script>
-	import { onMount } from "svelte";
-
 	import Form from '../components/form.svelte';
 	import { createdCharInfo, createdCharImageUrl } from '../store';
-
-
-	onMount(async () => {
-		fetch('/api/pokemon')
-			.then((response) => response.json())
-			.then((data) => {
-				console.log(data);
-			})
-			.catch((error) => {
-				console.log(error);
-				return [];
-			});
-	});
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
